@@ -26,7 +26,7 @@ public class HelloResource {
 	@Autowired
 	private JwtUtil jwtToken;
 
-	@RequestMapping(value = "/hello")
+	@RequestMapping("/hello")
 	public String hello() {
 		return "hello Word";
 	}
